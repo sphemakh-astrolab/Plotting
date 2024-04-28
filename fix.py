@@ -1,7 +1,7 @@
 import os
 
 check_for = '#include <sciplot'
-rootdir = 'sciplot/sciplot'
+rootdir = 'sciplot'
 def correct_file(subdir, filepath):
     og_file = open(filepath, 'r')
     new_file_name = f'{filepath[:-4]}_r.hpp'
